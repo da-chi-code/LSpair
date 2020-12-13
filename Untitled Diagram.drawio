@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-13T06:35:21.792Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="qcu9pveutVLqYGgEjbDt" version="14.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-12-13T11:51:37.432Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="d1GmJ2o1SrnsXAzOKS5b" version="14.0.1" type="github" pages="2">
   <diagram id="S1REkzzMkXl7ni8EmwNw" name="画面遷移図">
     <mxGraphModel dx="840" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -67,7 +67,7 @@
         <mxCell id="8OBAQ3s6F6bdf8IF5Xk7-29" value="診断開始ボタン" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="250" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8OBAQ3s6F6bdf8IF5Xk7-30" value="トップ・戻る" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="8OBAQ3s6F6bdf8IF5Xk7-30" value="トップ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="30" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8OBAQ3s6F6bdf8IF5Xk7-31" value="ログアウト・トップ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -87,7 +87,7 @@
         <mxCell id="8OBAQ3s6F6bdf8IF5Xk7-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="840" y="336.25" width="190" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="8OBAQ3s6F6bdf8IF5Xk7-37" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.084;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="8OBAQ3s6F6bdf8IF5Xk7-33" edge="1" source="8OBAQ3s6F6bdf8IF5Xk7-12">
+        <mxCell id="8OBAQ3s6F6bdf8IF5Xk7-37" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.084;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="8OBAQ3s6F6bdf8IF5Xk7-12" target="8OBAQ3s6F6bdf8IF5Xk7-33" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="235" as="sourcePoint" />
             <mxPoint x="530" y="251.25" as="targetPoint" />
@@ -128,7 +128,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8OBAQ3s6F6bdf8IF5Xk7-53" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="575" y="361.25" width="190" height="320" as="geometry" />
+          <mxGeometry x="575" y="361.25" width="190" height="258.75" as="geometry" />
         </mxCell>
         <mxCell id="8OBAQ3s6F6bdf8IF5Xk7-56" value="マイページ・トップ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="371.25" width="120" height="30" as="geometry" />
@@ -145,306 +145,313 @@
         <mxCell id="8OBAQ3s6F6bdf8IF5Xk7-60" value="結果３" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="605" y="527.5" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8OBAQ3s6F6bdf8IF5Xk7-61" value="調達方法" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="8OBAQ3s6F6bdf8IF5Xk7-61" value="給料日までの日数" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="605" y="571.25" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8OBAQ3s6F6bdf8IF5Xk7-62" value="季節に合う飲食物等表示" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="602.5" y="615" width="135" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="8OBAQ3s6F6bdf8IF5Xk7-64" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="8OBAQ3s6F6bdf8IF5Xk7-53" target="8OBAQ3s6F6bdf8IF5Xk7-25" edge="1">
+        <mxCell id="8OBAQ3s6F6bdf8IF5Xk7-64" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="8OBAQ3s6F6bdf8IF5Xk7-53" target="8OBAQ3s6F6bdf8IF5Xk7-25" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="430" y="290" as="sourcePoint" />
             <mxPoint x="480" y="240" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PAJCKOamCRgsl4D7Gqny-1" value="登録ボタン" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PAJCKOamCRgsl4D7Gqny-1" value="登録ボタン" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="57.5" y="290" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JfRen8Myd1IEYRR_ePY6-1" value="ログインボタン" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JfRen8Myd1IEYRR_ePY6-1" value="ログインボタン" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="382.5" y="205" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="bQ0DElvmyvvj0Ru5-dsv-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bQ0DElvmyvvj0Ru5-dsv-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="21.25" y="350" width="162.5" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="bQ0DElvmyvvj0Ru5-dsv-2" value="管理者ページ（追加）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bQ0DElvmyvvj0Ru5-dsv-2" value="管理者ページ（追加）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="36.879999999999995" y="400" width="131.25" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bQ0DElvmyvvj0Ru5-dsv-3" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.995;entryY=0.155;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8OBAQ3s6F6bdf8IF5Xk7-12" target="bQ0DElvmyvvj0Ru5-dsv-1">
+        <mxCell id="bQ0DElvmyvvj0Ru5-dsv-3" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.995;entryY=0.155;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="8OBAQ3s6F6bdf8IF5Xk7-12" target="bQ0DElvmyvvj0Ru5-dsv-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="250" y="260" as="sourcePoint" />
             <mxPoint x="308.07500000000005" y="346.04625" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bQ0DElvmyvvj0Ru5-dsv-8" value="質問追加&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bQ0DElvmyvvj0Ru5-dsv-8" value="質問追加&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40.940000000000005" y="436.25" width="123.12" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="bQ0DElvmyvvj0Ru5-dsv-9" value="追加内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bQ0DElvmyvvj0Ru5-dsv-9" value="追加内容" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="46.88" y="470" width="113.12" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bQ0DElvmyvvj0Ru5-dsv-10" value="変動パラメータ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bQ0DElvmyvvj0Ru5-dsv-10" value="変動パラメータ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="47.5" y="506.25" width="110" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="bQ0DElvmyvvj0Ru5-dsv-11" value="追加ボタン" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bQ0DElvmyvvj0Ru5-dsv-11" value="追加ボタン" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="47.5" y="536.25" width="110" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="bQ0DElvmyvvj0Ru5-dsv-12" value="食材、調理方法、酒追加&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bQ0DElvmyvvj0Ru5-dsv-12" value="食材、調理方法、酒追加&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="33.44" y="580" width="140" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="bQ0DElvmyvvj0Ru5-dsv-13" value="追加内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bQ0DElvmyvvj0Ru5-dsv-13" value="追加内容" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="48.44" y="606.25" width="110" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="bQ0DElvmyvvj0Ru5-dsv-14" value="設定パラメータ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bQ0DElvmyvvj0Ru5-dsv-14" value="設定パラメータ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="47.5" y="643.75" width="110" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="bQ0DElvmyvvj0Ru5-dsv-15" value="種別入力" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bQ0DElvmyvvj0Ru5-dsv-15" value="種別入力" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="48.44" y="676.25" width="110" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="bQ0DElvmyvvj0Ru5-dsv-16" value="追加ボタン" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bQ0DElvmyvvj0Ru5-dsv-16" value="追加ボタン" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="47.5" y="710" width="110" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="bQ0DElvmyvvj0Ru5-dsv-18" value="ログアウト・トップ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bQ0DElvmyvvj0Ru5-dsv-18" value="ログアウト" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="58.75" y="360" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nLazjk8-AzH3sQwnNmWb-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nLazjk8-AzH3sQwnNmWb-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="571.25" width="160" height="238.75" as="geometry" />
         </mxCell>
-        <mxCell id="nLazjk8-AzH3sQwnNmWb-19" value="質問一覧リンク" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nLazjk8-AzH3sQwnNmWb-19" value="質問一覧リンク" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="32.5" y="760" width="140" height="23.75" as="geometry" />
         </mxCell>
-        <mxCell id="nLazjk8-AzH3sQwnNmWb-20" value="その他一覧リンク" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nLazjk8-AzH3sQwnNmWb-20" value="その他一覧リンク" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="33.44" y="790" width="140" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="nLazjk8-AzH3sQwnNmWb-21" value="DB追加ページリンク" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nLazjk8-AzH3sQwnNmWb-21" value="DB追加ページリンク" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="231.25" y="736.25" width="140" height="23.75" as="geometry" />
         </mxCell>
-        <mxCell id="nLazjk8-AzH3sQwnNmWb-22" value="質問一覧リンク" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nLazjk8-AzH3sQwnNmWb-22" value="質問一覧リンク" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="231.25" y="770" width="140" height="23.75" as="geometry" />
         </mxCell>
-        <mxCell id="nLazjk8-AzH3sQwnNmWb-23" value="ログアウト・トップ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nLazjk8-AzH3sQwnNmWb-23" value="ログアウト" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="571.25" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nLazjk8-AzH3sQwnNmWb-24" value="その他一覧ページ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nLazjk8-AzH3sQwnNmWb-24" value="その他一覧ページ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="241.26" y="613.75" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nLazjk8-AzH3sQwnNmWb-25" value="その他一覧表示、削除。内容変更ボタン" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nLazjk8-AzH3sQwnNmWb-25" value="その他一覧表示、削除。内容変更ボタン" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="241.25" y="666.25" width="120" height="53.75" as="geometry" />
         </mxCell>
-        <mxCell id="nLazjk8-AzH3sQwnNmWb-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nLazjk8-AzH3sQwnNmWb-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="531.25" width="160" height="238.75" as="geometry" />
         </mxCell>
-        <mxCell id="nLazjk8-AzH3sQwnNmWb-27" value="DB追加ページリンク" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nLazjk8-AzH3sQwnNmWb-27" value="DB追加ページリンク" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="411.25" y="696.25" width="140" height="23.75" as="geometry" />
         </mxCell>
-        <mxCell id="nLazjk8-AzH3sQwnNmWb-28" value="その他一覧ページ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nLazjk8-AzH3sQwnNmWb-28" value="その他一覧ページ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="411.25" y="730" width="140" height="23.75" as="geometry" />
         </mxCell>
-        <mxCell id="nLazjk8-AzH3sQwnNmWb-29" value="ログアウト・トップ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nLazjk8-AzH3sQwnNmWb-29" value="ログアウト" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="531.25" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nLazjk8-AzH3sQwnNmWb-30" value="質問一覧ページ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nLazjk8-AzH3sQwnNmWb-30" value="質問一覧ページ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="421.26" y="573.75" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nLazjk8-AzH3sQwnNmWb-31" value="質問一覧表示、削除。内容変更ボタン" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nLazjk8-AzH3sQwnNmWb-31" value="質問一覧表示、削除。内容変更ボタン" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="421.25" y="626.25" width="120" height="53.75" as="geometry" />
         </mxCell>
-        <mxCell id="nLazjk8-AzH3sQwnNmWb-32" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="nLazjk8-AzH3sQwnNmWb-8">
+        <mxCell id="nLazjk8-AzH3sQwnNmWb-32" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" target="nLazjk8-AzH3sQwnNmWb-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="181.25" y="701.25" as="sourcePoint" />
             <mxPoint x="231.25" y="651.25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nLazjk8-AzH3sQwnNmWb-39" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="nLazjk8-AzH3sQwnNmWb-8" target="nLazjk8-AzH3sQwnNmWb-26">
+        <mxCell id="nLazjk8-AzH3sQwnNmWb-39" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="nLazjk8-AzH3sQwnNmWb-8" target="nLazjk8-AzH3sQwnNmWb-26" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="361.26" y="663.75" as="sourcePoint" />
             <mxPoint x="411.26" y="613.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nLazjk8-AzH3sQwnNmWb-41" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8OBAQ3s6F6bdf8IF5Xk7-12" target="nLazjk8-AzH3sQwnNmWb-23">
+        <mxCell id="o8qymHWKubW8m6fZ-YgI-1" value="" style="endArrow=classic;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="nLazjk8-AzH3sQwnNmWb-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="407.06" y="260" as="sourcePoint" />
-            <mxPoint x="249.9975" y="422.85" as="targetPoint" />
-            <Array as="points" />
+            <mxPoint x="320" y="570" as="sourcePoint" />
+            <mxPoint x="400" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nLazjk8-AzH3sQwnNmWb-42" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8OBAQ3s6F6bdf8IF5Xk7-12" target="nLazjk8-AzH3sQwnNmWb-26">
+        <mxCell id="o8qymHWKubW8m6fZ-YgI-2" value="" style="endArrow=classic;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="nLazjk8-AzH3sQwnNmWb-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="368.4" as="sourcePoint" />
-            <mxPoint x="403" y="531" as="targetPoint" />
-            <Array as="points" />
+            <mxPoint x="411.25" y="310" as="sourcePoint" />
+            <mxPoint x="461.25" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="機能設計と紐付け" id="bJbJVyvOkKkgzOP5_58w">
-    <mxGraphModel dx="840" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="840" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="a9oXgIi34Afh8oGWJQjm-0" />
         <mxCell id="a9oXgIi34Afh8oGWJQjm-1" parent="a9oXgIi34Afh8oGWJQjm-0" />
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="37.5" y="25" width="215" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="50" y="120" width="190" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-4" value="ユーザー名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-4" value="ユーザー名" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="60" y="160" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-5" value="ユーザー登録画面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-5" value="ユーザー登録画面" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="60" y="70" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-6" value="パスワード" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-6" value="パスワード" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="60" y="200" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-7" value="給料日（例月）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-7" value="給料日（例月）" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="60" y="240" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-8" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-8" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="540" y="30" width="210" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-9" value="サービス名及びサービス概要" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-9" value="サービス名及びサービス概要" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="560" y="40" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-10" value="ユーザー登録（入力）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-10" value="ユーザー登録（入力）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="80" y="130" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-11" value="ユーザー登録ページのリンク" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-11" value="ユーザー登録ページのリンク" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="560" y="80" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="560" y="120" width="170" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-13" value="ユーザー名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-13" value="ユーザー名" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="570" y="160" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-14" value="パスワード" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-14" value="パスワード" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="570" y="195" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-15" value="ログイン（入力）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-15" value="ログイン（入力）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="570" y="130" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-16" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="a9oXgIi34Afh8oGWJQjm-1" source="a9oXgIi34Afh8oGWJQjm-2" target="a9oXgIi34Afh8oGWJQjm-8">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-16" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="a9oXgIi34Afh8oGWJQjm-1" source="a9oXgIi34Afh8oGWJQjm-2" target="a9oXgIi34Afh8oGWJQjm-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="270" y="165" as="sourcePoint" />
             <mxPoint x="320" y="115" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="950" y="25" width="190" height="275" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-18" value="マイページ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-18" value="マイページ" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="985" y="70" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-19" value="使用履歴（日付降順）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-19" value="使用履歴（日付降順）" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="960" y="110" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-20" value="使用履歴（パラメーター別）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-20" value="使用履歴（パラメーター別）" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="960" y="150" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-21" value="診断開始ボタン" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-21" value="診断開始ボタン" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="960" y="195" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-22" value="トップ・戻る" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-22" value="トップ・戻る" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="150" y="30" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-23" value="ログアウト・トップ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-23" value="ログアウト・トップ" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="1010" y="30" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-24" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="a9oXgIi34Afh8oGWJQjm-1" source="a9oXgIi34Afh8oGWJQjm-8" target="a9oXgIi34Afh8oGWJQjm-17">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-24" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="a9oXgIi34Afh8oGWJQjm-1" source="a9oXgIi34Afh8oGWJQjm-8" target="a9oXgIi34Afh8oGWJQjm-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="550" y="85" as="sourcePoint" />
             <mxPoint x="630" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="a9oXgIi34Afh8oGWJQjm-1" source="a9oXgIi34Afh8oGWJQjm-26" target="a9oXgIi34Afh8oGWJQjm-38">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" source="a9oXgIi34Afh8oGWJQjm-26" target="a9oXgIi34Afh8oGWJQjm-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="630" y="340" width="190" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-27" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.084;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="a9oXgIi34Afh8oGWJQjm-1" target="a9oXgIi34Afh8oGWJQjm-26">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-27" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.084;entryDx=0;entryDy=0;entryPerimeter=0;" parent="a9oXgIi34Afh8oGWJQjm-1" target="a9oXgIi34Afh8oGWJQjm-26" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="235" as="sourcePoint" />
             <mxPoint x="530" y="251.25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-28" value="診断ページ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-28" value="診断ページ" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="665" y="390" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-29" value="質問及び是非ボタン" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-29" value="質問及び是非ボタン" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="660" y="430" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-30" value="質問及び是非ボタン" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-30" value="質問及び是非ボタン" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="660" y="470" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-31" value="質問及び是非ボタン" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-31" value="質問及び是非ボタン" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="660" y="550" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-32" value="質問及び是非ボタン" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-32" value="質問及び是非ボタン" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="660" y="510" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-33" value="質問及び是非ボタン" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-33" value="質問及び是非ボタン" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="660" y="590" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-34" value="質問及び是非ボタン" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-34" value="質問及び是非ボタン" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="660" y="630" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-35" value="診断終了ボタン" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-35" value="診断終了ボタン" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="665" y="670" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-36" value="マイページ・トップ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-36" value="マイページ・トップ" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="690" y="350" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-37" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="a9oXgIi34Afh8oGWJQjm-1" source="a9oXgIi34Afh8oGWJQjm-26" target="a9oXgIi34Afh8oGWJQjm-17">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-37" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="a9oXgIi34Afh8oGWJQjm-1" source="a9oXgIi34Afh8oGWJQjm-26" target="a9oXgIi34Afh8oGWJQjm-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="700" y="340" as="sourcePoint" />
             <mxPoint x="750" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-38" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-38" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="360" y="340" width="190" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-39" value="マイページ・トップ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-39" value="マイページ・トップ" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="420" y="350" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-40" value="結果表示ページ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-40" value="結果表示ページ" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="395" y="390" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-41" value="結果１" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-41" value="結果１（決定ボタン）" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="390" y="430" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-42" value="結果２" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-42" value="結果２（決定ボタン）" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="390" y="480" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-43" value="結果３" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-43" value="結果３（決定ボタン）" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="390" y="530" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-44" value="調達方法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-44" value="給料日までの日数" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="390" y="580" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-45" value="季節に合う飲食物等表示" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-45" value="季節に合う飲食物等表示" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="390" y="630" width="135" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="a9oXgIi34Afh8oGWJQjm-46" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="a9oXgIi34Afh8oGWJQjm-1" source="a9oXgIi34Afh8oGWJQjm-38" target="a9oXgIi34Afh8oGWJQjm-17">
+        <mxCell id="a9oXgIi34Afh8oGWJQjm-46" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="a9oXgIi34Afh8oGWJQjm-1" source="a9oXgIi34Afh8oGWJQjm-38" target="a9oXgIi34Afh8oGWJQjm-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="430" y="290" as="sourcePoint" />
             <mxPoint x="480" y="240" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pmJ1BRLwVxAvTS-5tKct-1" value="○ユーザー登録画面&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;・機能&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;会員情報登録&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;・処理内容&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;入力情報を受け取る&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;情報をDBに登録&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・必要なデータ&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;会員情報&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・取得元&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;入力フォーム&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・ユーザー操作&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;フォームに入力&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;登録ボタンクリック&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="pmJ1BRLwVxAvTS-5tKct-1" value="○ユーザー登録画面&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;・機能&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;会員情報登録&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;・処理内容&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;入力情報を受け取る&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;情報をDBに登録&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・必要なデータ&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;会員情報&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・取得元&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;入力フォーム&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・ユーザー操作&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;フォームに入力&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;登録ボタンクリック&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="37.5" y="320" width="132.5" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="ULb8tgGrg8SZ1s40NJBt-0" value="○トップ画面&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;・機能&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;ログイン&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;ユーザー登録画面遷移&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;・処理内容&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;ユーザー登録画面へ遷移&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;入力情報を受け取る&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;ログイン処理&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・必要なデータ&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;会員情報&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・取得元&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;DB&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・ユーザー操作&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;ユーザー登録リンククリック&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;フォームに入力&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;ログインボタンクリック&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+        <mxCell id="ULb8tgGrg8SZ1s40NJBt-0" value="○トップ画面&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;・機能&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;ログイン&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;ユーザー登録画面遷移&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;・処理内容&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;ユーザー登録画面へ遷移&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;入力情報を受け取る&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;ログイン処理&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・必要なデータ&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;会員情報&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・取得元&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;DB&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・ユーザー操作&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;ユーザー登録リンククリック&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;フォームに入力&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;ログインボタンクリック&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
           <mxGeometry x="37.5" y="535" width="140" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="UcNwg73kuA3MrP8gxkws-0" value="○マイページ&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;・機能&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;履歴表示&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;診断開始画面へ遷移&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;・処理内容&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;遷移処理&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・必要なデータ&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;会員情報&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・取得元&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;入力フォーム&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・ユーザー操作&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;フォームに入力&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;登録ボタンクリック&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
-          <mxGeometry x="200" y="320" width="132.5" height="200" as="geometry" />
+        <mxCell id="UcNwg73kuA3MrP8gxkws-0" value="○マイページ&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;・機能&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;履歴表示&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;診断開始画面へ遷移&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;ログアウト&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;・処理内容&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;履歴表示&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;遷移処理&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;ログアウト&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;・必要なデータ&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;会員情報に紐づく履歴&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・取得元&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;使用履歴DB&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・ユーザー操作&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;診断開始ボタンクリック&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
+          <mxGeometry x="190" y="320" width="142.5" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="OONZLLDKFj5B8zRiMteV-0" value="○管理画面&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;・機能&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;ログイン&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;ユーザー登録画面遷移&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;・処理内容&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;ユーザー登録画面へ遷移&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;入力情報を受け取る&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;ログイン処理&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・必要なデータ&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;会員情報&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・取得元&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;DB&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・ユーザー操作&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;ユーザー登録リンククリック&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;フォームに入力&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;ログインボタンクリック&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
-          <mxGeometry x="200" y="535" width="140" height="240" as="geometry" />
+        <mxCell id="OONZLLDKFj5B8zRiMteV-0" value="○管理画面（追加）&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;・機能&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;質問等の追加&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;ログアウト&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;・処理内容&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;追加内容を各DBに追加&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;ログアウト処理&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・必要なデータ&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・取得元&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・ユーザー操作&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;各追加フォームに入力&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;追加ボタンクリック&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="a9oXgIi34Afh8oGWJQjm-1" vertex="1">
+          <mxGeometry x="200" y="570" width="140" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="BRN_JUN1XORCyPWwv8-s-0" value="○診断ページ&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;・機能&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;質問を６問無作為に抽出し、表示&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;結果表示ページへ遷移&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;ログアウト&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;・処理内容&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;質問をDBより無作為に抽出&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;遷移処理&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・必要なデータ&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;質問データ&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・取得元&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;DB&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・ユーザー操作&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;質問回答&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;診断終了ボタンクリック&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+          <mxGeometry x="37.5" y="790" width="142.5" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="yOU-F2U5miTgU9NqBjst-0" value="○診断結果ページ&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;・機能&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;質問回答により結果表示&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;給与日までの日数表示により調達方法変更&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;利用日より季節の飲食物表示&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;履歴保存&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;・処理内容&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;設定パラメータにより、&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;食材、調理法、お酒を表示&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・必要なデータ&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;質問データ&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;食材、調理法、お酒のデータ&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・取得元&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;DB&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;・ユーザー操作&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;結果選択&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+          <mxGeometry x="200" y="820" width="160" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="yOU-F2U5miTgU9NqBjst-1" value="○管理画面（質問削除・変更）&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;・機能&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;質問内容等の変更、削除&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;・処理内容&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;質問一覧の表示&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;内容の変更、削除&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・必要なデータ&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;質問データ&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・取得元&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;DB&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・ユーザー操作&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;ユーザー登録リンククリック&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;フォームに入力&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;ログインボタンクリック&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+          <mxGeometry x="375" y="740" width="175" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="yOU-F2U5miTgU9NqBjst-3" value="○管理画面（食材等変更・削除）&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;・機能&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;質問内容の変更、削除&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;・処理内容&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;食材等一覧の表示&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;内容の変更、削除&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・必要なデータ&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;質問データ&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・取得元&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;DB&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;・ユーザー操作&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;ユーザー登録リンククリック&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;フォームに入力&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;ログインボタンクリック&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a9oXgIi34Afh8oGWJQjm-1">
+          <mxGeometry x="590" y="740" width="175" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
